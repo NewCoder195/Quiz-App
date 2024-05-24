@@ -1,0 +1,48 @@
+.tutorial-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+.navbar-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+}
+
+.navbar-container button {
+  background-color: #520076;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.navbar-container button.active {
+  background-color: #8822b4;
+}
+
+.selected-subject-container {
+  margin-top: 20px;
+}
+
+.tutorial-topic {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5pxs;
+}
+
+.tutorial-topic h4 {
+  color: #520076;
+  margin-bottom: 10px;
+}
+
+.tutorial-topic p {
+  color: #333;
+  line-height: 1.5;
+}

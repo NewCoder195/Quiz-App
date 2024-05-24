@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(162, 232, 255),
+    rgb(190, 162, 255)
+  );
+}

@@ -1,0 +1,86 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content-container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.welcome-container h1 {
+  margin-bottom: 20px;
+}
+
+.welcome-container p {
+  margin-bottom: 20px;
+}
+
+.subject-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.welcome-container button,
+.subject-list-container button {
+  background-color: #520076;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 5px;
+  transition: background 0.3s ease;
+}
+
+.welcome-container button:hover,
+.subject-list-container button:hover {
+  background-color: #8822b4;
+}
+
+.back-container {
+  margin-top: 20px;
+}
+
+.back-button {
+  background-color: #520076;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #8822b4;
+}
+
+/* media queries */
+
+@media (max-width: 694px) {
+  .content-container {
+    width: 350px;
+  }
+  .welcome-container button,
+  .subject-list-container button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 515px) {
+  .content-container {
+    width: 300px;
+  }
+}
