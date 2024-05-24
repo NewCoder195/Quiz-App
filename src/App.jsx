@@ -8,7 +8,7 @@ import Home from "./Components/Home";
 import Quiz from "./Components/Quiz";
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Navbar />
         <Routes>
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/quiz/:subject" element={<Quiz />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
